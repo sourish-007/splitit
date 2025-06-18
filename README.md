@@ -2,7 +2,7 @@
 
 A simplified expense tracking application that helps people manage shared expenses and calculate balances within groups. Built with Flask backend, React frontend, and PostgreSQL database.
 
-![Application Screenshot](assets/image.png)
+![Application Screenshot](https://github.com/sourish-007/splitit/blob/main/frontend/src/assets/image.png)
 
 ## Live Demo
 
