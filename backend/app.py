@@ -9,7 +9,7 @@ load_dotenv()
 def create_app():
     app = Flask(__name__)
     
-    CORS(app, origins=["http://localhost:5173"], supports_credentials=True, allow_headers=["Content-Type"])
+    CORS(app, origins=["https://splitit-tpfs.onrender.com"], supports_credentials=True, allow_headers=["Content-Type"])
 
     app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'sqlite:///app.db')
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False

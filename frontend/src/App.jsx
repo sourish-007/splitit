@@ -104,7 +104,7 @@ function Sidebar({ isOpen, setIsOpen, isCollapsed, setIsCollapsed }) {
                   </svg>
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold text-gray-800">Splitwise</h1>
+                  <h1 className="text-xl font-bold text-gray-800">SplitIt</h1>
                   <p className="text-sm text-gray-500">Expense Tracker</p>
                 </div>
               </div>
